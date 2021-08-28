@@ -1383,7 +1383,7 @@
   dependencies:
     "tslib" "^1.9.3"
 
-"@material/dom@^1.1.0":
+"@material/dom@^1.0.0", "@material/dom@^1.1.0":
   "integrity" "sha512-+HWW38ZaM2UBPu4+7QCusLDSf4tFT31rsEXHkTkxYSg/QpDivfPx6YDz4OmYtafmhPR1d1YjqB3MYysUHdodyw=="
   "resolved" "https://registry.npmjs.org/@material/dom/-/dom-1.1.0.tgz"
   "version" "1.1.0"
@@ -1481,6 +1481,14 @@
     "@material/line-ripple" "^1.0.0"
     "classnames" "^2.2.6"
 
+"@material/react-material-icon@^0.15.0":
+  "integrity" "sha512-KDiMtMEtBZvqlma7wTS0ObY9BSFVtbCVkZiTnde/CxsYEQG9N6QwHClpbS4u/H8mWyXLdlSAQhK7rYSq1XGV0w=="
+  "resolved" "https://registry.npmjs.org/@material/react-material-icon/-/react-material-icon-0.15.0.tgz"
+  "version" "0.15.0"
+  dependencies:
+    "@material/react-ripple" "^0.15.0"
+    "classnames" "^2.2.6"
+
 "@material/react-notched-outline@^0.15.0":
   "integrity" "sha512-uQb8ADxDQ6r3yCdL+oNmeXcZ80Mod8CilllB4M5KsbLp9XvwbtFMK2PxbN/uRibS7hsVDDCNvep7IK7wpt2p1A=="
   "resolved" "https://registry.npmjs.org/@material/react-notched-outline/-/react-notched-outline-0.15.0.tgz"
@@ -1488,6 +1496,16 @@
   dependencies:
     "@material/notched-outline" "^1.1.1"
     "classnames" "^2.2.6"
+
+"@material/react-ripple@^0.15.0":
+  "integrity" "sha512-8YPEpiQNOaq3QtMc1DBxVVqOg/XnoWDj/EJ8eW0xmB4HvXElztKNTZoIpAAuQMZ8jbyZkRJRiFDa33u+wLFDCg=="
+  "resolved" "https://registry.npmjs.org/@material/react-ripple/-/react-ripple-0.15.0.tgz"
+  "version" "0.15.0"
+  dependencies:
+    "@material/dom" "^1.0.0"
+    "@material/ripple" "^1.0.0"
+    "classnames" "^2.2.6"
+    "utility-types" "^3.2.1"
 
 "@material/react-text-field@^0.15.0":
   "integrity" "sha512-kVLALtCUxTEPz0eLYUgjhOAlKlMOW4HtoabpAggVMD/tQR+e3XgqTS6WxXcvjwZZ9EoZtHrKibpfvm29Z3mu9A=="
@@ -1499,6 +1517,18 @@
     "@material/react-notched-outline" "^0.15.0"
     "@material/textfield" "^2.3.1"
     "classnames" "^2.2.6"
+
+"@material/ripple@^1.0.0":
+  "integrity" "sha512-mkfDBZAmxjpRG7V9TrfOmLxt1g/wvGHCXtYPgvH7W8ozjf53edqxLOFENEdvHbie27y9nyixzXn0gzU0HnxSeA=="
+  "resolved" "https://registry.npmjs.org/@material/ripple/-/ripple-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "@material/animation" "^1.0.0"
+    "@material/base" "^1.0.0"
+    "@material/dom" "^1.1.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/theme" "^1.1.0"
+    "tslib" "^1.9.3"
 
 "@material/ripple@^2.3.0":
   "integrity" "sha512-ejXR0nstERofFhssRyFlwOLgebwm2uGbarHtWZ2/+7QY2Th/Z1wOqNb2h/WRoShsJXK11RUsochb6BJrg30u7w=="
@@ -11279,6 +11309,11 @@
   "integrity" "sha1-ihagXURWV6Oupe7MWxKk+lN5dyw="
   "resolved" "https://registry.npmjs.org/utila/-/utila-0.4.0.tgz"
   "version" "0.4.0"
+
+"utility-types@^3.2.1":
+  "integrity" "sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg=="
+  "resolved" "https://registry.npmjs.org/utility-types/-/utility-types-3.10.0.tgz"
+  "version" "3.10.0"
 
 "utils-merge@1.0.1":
   "integrity" "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM="
