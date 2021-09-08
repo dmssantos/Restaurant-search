@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
 import TextField, { Input } from '@material/react-text-field/dist/index';
 import MaterialIcon from '@material/react-material-icon';
 import 'slick-carousel/slick/slick.css';
@@ -14,6 +15,7 @@ const Home = () => {
   const [inputValue, setInputValue] = useState();
   const [query, setQuery] = useState(null);
   const [modalOpened, setModalOpened] = useState(true);
+  const { restaurants } = useSelector((state) => state.restaurants);
 
   const settings = {
     dots: false,
@@ -49,15 +51,18 @@ const Home = () => {
 
           <CarouselTitle>Na sua Área</CarouselTitle>
           <Carousel {...settings}>
-            <Card photo={restaurante} title="Nome Sei Lá" />
-            <Card photo={restaurante} title="Nome Sei Lá" />
-            <Card photo={restaurante} title="Nome Sei Lá" />
-            <Card photo={restaurante} title="Nome Sei Lá" />
-            <Card photo={restaurante} title="Nome Sei Lá" />
+            {restaurants.map((restaurant) => (
+              <Card
+                key={restaurant.place_id}
+                photo={restaurant.photos ? restaurant.photos[0].getUrl() : restaurante}
+                title={restaurant.name}
+              />
+            ))}
           </Carousel>
         </Search>
-
-        <RestaurantCard />
+        {restaurants.map((restaurant) => (
+          <RestaurantCard restaurant={restaurant} />
+        ))}
       </Container>
 
       <Map query={query} />
