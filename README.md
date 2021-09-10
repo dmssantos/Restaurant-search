@@ -1,5 +1,5 @@
 <h1 align="center">
-  Covid-19
+  Restaurants Search
 </h1>
 
 <p align="center">
@@ -13,7 +13,8 @@
 <br>
 
 <p align="center">
-  <img alt="covid19" src="github/covid-19.png" width="100%">
+  <img alt="restaurants-search" src="https://github.com/dmssantos/Restaurant-search/blob/main/github_images/restaurant-serarch-1.png" width="50%">
+  <img alt="restaurants-search" src="https://github.com/dmssantos/Restaurant-search/blob/main/github_images/restaurant-search-2.png" width="50%">
 </p>
 
 ## ✨ Tecnologias
@@ -23,17 +24,20 @@
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
 <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" />
+<img src="https://img.shields.io/badge/Redux-008111?style=for-the-badge&logo=redux&logoColor=white" />
+<img src="https://img.shields.io/badge/Google--API-008100?style=for-the-badge" />
 
 ## 💻 Projeto
 
-Desenvolvimento de uma Progressive Web Application (pwa) com React para mapear os dados do COVID19 pelo mundo. trabalho feito no curso de reactJS na plataforma da <a href="https://digitalinnovation.one/">Digital Inovation One</a>
+Desenvolvimento de um sistema web de busca de restaurantes, parecido com o serviço que o Google oferece, com React iniciando do zero à nuvem.
+trabalho feito no curso de reactJS na plataforma da <a href="https://digitalinnovation.one/">Digital Inovation One</a>
 
 ## 🚀 Execução
 
 Primeiro faça o clone do projeto
 
 ```sh
-git clone https://github.com/dmssantos/covid-19.git
+git clone https://github.com/dmssantos/Restaurant-search.git
 ```
 agora instale as dependências
 ```sh
